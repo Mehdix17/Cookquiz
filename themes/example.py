@@ -27,3 +27,8 @@
 # you can also delete a question by deleting its dictionary
 
 # all answers must be in lowercase
+
+# to create a .exe file :
+# install pyinstaller : pip install pyinstaller
+# then type this command :pyinstaller --onefile --icon=data\icon.ico --add-data "data;data" --add-data "themes;themes" main.py
+
