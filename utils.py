@@ -126,6 +126,7 @@ def set_themes():
             return "back"
         
         elif theme == "random": # select n questions randomly
+            cst.user_questions_dict = {key: 0 for key in cst.user_questions_dict} # delete all selected questions
             quizz_len = len(cst.all_quiz_questions)
             
             while True:
