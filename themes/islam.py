@@ -28,7 +28,7 @@ questions = [
 
     {"text": "كم عدد السور في القرآن الكريم ؟", 
     "answers": [],
-    "right_answer": "144",
+    "right_answer": "114",
     "points": 3,
     },
 
